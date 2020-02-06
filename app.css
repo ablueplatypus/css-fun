@@ -1,0 +1,42 @@
+
+
+.header {
+  background-color: cornflowerblue;
+  padding: 1rem;
+}
+
+.s1 {
+  display: inline-block;
+  border-color: green;
+  border-width: 18px;
+  border-style: solid;
+  width: 70%;
+
+}
+
+.title-margin {
+  margin: 5px 0 5px;
+}
+
+p {
+  padding: 5px;
+  /* margin: 0; */
+}
+
+aside {
+    display: inline-block;
+    background-color: pink;
+    width: 27%;
+    float: right;
+}
+
+#wrapper {
+  display: block;
+}
+
+@media screen and (min-width: 780px) {
+  aside {
+    width: 25%;
+  }
+
+}
