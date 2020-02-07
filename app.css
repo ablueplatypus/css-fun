@@ -41,10 +41,26 @@ aside {
   display: block;
 }
 
-@media screen and (max-width: 1822px) {
+@media screen and (max-width: 1024px) {
   /* flex box allows this to not be necessary */
   aside {
-    width: 26%;
+    width: 40%;
+  }
+
+  .s1{
+    width: 60%;
   }
 
 }
+
+@media screen and (max-width: 360px) {
+  aside {
+    width: 36%;
+  }
+}
+
+/* @media screen and (min-width: 750px) {
+  aside {
+    width: 30%
+  }
+} */
