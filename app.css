@@ -6,7 +6,7 @@
 }
 
 .s1 {
-  display: inline-block;
+  display: block;
   border-color: green;
   border-width: 18px;
   border-style: solid;
@@ -16,6 +16,7 @@
 
 .container {
   display: flex;
+  flex-direction: row;
 
 }
 
@@ -29,10 +30,11 @@ p {
 }
 
 aside {
-    display: inline-block;
+    display: block;
     background-color: pink;
     width: 28%;
     float: right;
+    flex-shrink: 45;
 }
 
 #wrapper {
@@ -40,6 +42,7 @@ aside {
 }
 
 @media screen and (max-width: 1822px) {
+  /* flex box allows this to not be necessary */
   aside {
     width: 26%;
   }
